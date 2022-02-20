@@ -8,7 +8,7 @@ const DefaultVersions: Record<string, string> = {
   conan: "1.44.1",
   meson: "0.61.1",
   python: "3.8.10",
-  kcov: "v39",
+  kcov: "39",
   task: "3.10.0",
   doxygen: "1.9.1",
   gcc: process.platform === "win32" ? "11.2.0.07112021" : "11",
