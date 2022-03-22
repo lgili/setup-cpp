@@ -59,7 +59,7 @@ An example that installs llvm, cmake, ninja, ccache, and vcpkg:
 ```ps1
 # windows example (open shell as admin)
 curl -LJO "https://github.com/aminya/setup-cpp/releases/download/v0.9.4/setup_cpp_windows.exe"
-./setup_cpp_windows --compiler llvm --cmake true --ninja true --ccache true --vcpkg true
+./setup_cpp_windows  --cmake true --ccache true --vcpkg true
 
 RefreshEnv.cmd # reload the environment
 ```
@@ -68,7 +68,7 @@ RefreshEnv.cmd # reload the environment
 # linux example
 wget "https://github.com/aminya/setup-cpp/releases/download/v0.9.4/setup_cpp_linux"
 chmod +x setup_cpp_linux
-sudo ./setup_cpp_linux --compiler llvm --cmake true --ninja true --ccache true --vcpkg true
+sudo ./setup_cpp_linux  --cmake true --ccache true 
 
 source ~/.profile # reload the environment
 ```
@@ -77,7 +77,7 @@ source ~/.profile # reload the environment
 # mac example
 wget "https://github.com/aminya/setup-cpp/releases/download/v0.9.4/setup_cpp_mac"
 chmod +x setup_cpp_mac
-sudo ./setup_cpp_mac --compiler llvm --cmake true --ninja true --ccache true --vcpkg true
+sudo ./setup_cpp_mac --cmake true --ccache true
 
 source ~/.profile # reload the environment
 ```
